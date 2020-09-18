@@ -3,4 +3,4 @@ University: University of Hradec Králové
 
 Teacher: Ing. Jaroslav Langer
 
-Source codes for University lecture
+Source codes for lecture
