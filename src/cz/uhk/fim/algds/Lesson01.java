@@ -21,7 +21,7 @@ public class Lesson01 {
         int a;
         print("Type a number");
         a = input.nextInt();
-        print(a);
+        print("Your number is: " +a);
     }
     private static void example02(){
         print("Running example 02");
@@ -33,7 +33,7 @@ public class Lesson01 {
         print("Type the second number");
         b = input.nextInt();
         c = a + b;
-        print(c);
+        print("The result is: " + c);
     }
     private static void example3a(){
         print("Running example 03a");
@@ -41,7 +41,7 @@ public class Lesson01 {
         a = input.nextInt();
         b = input.nextInt();
         double result = a / b;
-        print(result);
+        print("The result is: " + result);
     }
     private static void example3b(){
         print("Running example 03b");
@@ -49,7 +49,7 @@ public class Lesson01 {
         a = input.nextInt();
         b = input.nextInt();
         double result = a % b;
-        print(result);
+        print("The result is: " + result);
     }
     private static void example04(){
         print("Running example 04");
