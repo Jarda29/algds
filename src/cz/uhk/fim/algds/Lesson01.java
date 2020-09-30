@@ -7,6 +7,8 @@ Toto je komentář na více řádků
  */
 /**
  * Definice tridy s nazvem "Lesson01"
+ * Třída je nezbytná pro běh apliakce v Javě, jelikož Java je objektově orientovaný jazyk,
+ *  více informací se postupně dozvíte v UOMO a Programování 1
  * Nazvy trid:
  * - zacinaji velkym pismenem, kazde dalsi slovo zacina take velkym pismenem
  * - nazev by mel odpovidat tomu, k cemu dana trida slouzi
@@ -28,7 +30,7 @@ public class Lesson01 {
     public static void main(String[] args) {
         //Pro spuštění příkladu odkomentujte řádek
 
-        //example01();
+        //example01(); // volání metody ("funkce") example01 - spustí se tedy kod napsaný níže
         //example02();
         //example3a();
         //example3b();
