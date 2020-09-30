@@ -6,7 +6,7 @@ import java.util.Scanner;
 Toto je komentář na více řádků
  */
 /**
- * Definice tridy s nazvem "AlgdsCviceni"
+ * Definice tridy s nazvem "LessonTemplate"
  * Nazvy trid:
  * - zacinaji velkym pismenem, kazde dalsi slovo zacina take velkym pismenem
  * - nazev by mel odpovidat tomu, k cemu dana trida slouzi
