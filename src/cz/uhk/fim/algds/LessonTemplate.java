@@ -1,9 +1,9 @@
 package cz.uhk.fim.algds;
 
 import java.util.Scanner;
-// Toto je komentář na jeden řádek
+// Toto je komentar na jeden radek
 /*
-Toto je komentář na více řádků
+Toto je komentar na vice radku
  */
 /**
  * Definice tridy s nazvem "LessonTemplate"
@@ -32,7 +32,7 @@ public class LessonTemplate {
         print("Running example 01");
 
     }
-    //Metody pro zkrácení výpisu, aby nebylo potřeba psát System.out.println - stačí zkráceně print
+    //Metody pro zkracení vypisu, aby nebylo potreba psat System.out.println - staci zkracene print
     private static void print(String text) {
         System.out.println(text);
     }

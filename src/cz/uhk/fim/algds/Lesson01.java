@@ -1,14 +1,14 @@
 package cz.uhk.fim.algds; // podle struktury projektu
 
 import java.util.Scanner;
-// Toto je komentář na jeden řádek
+// Toto je komentar na jeden radek
 /*
-Toto je komentář na více řádků
+Toto je komentar na vice radku
  */
 /**
  * Definice tridy s nazvem "Lesson01"
- * Třída je nezbytná pro běh apliakce v Javě, jelikož Java je objektově orientovaný jazyk,
- *  více informací se postupně dozvíte v UOMO a Programování 1
+ * Trida je nezbytna pro beh apliakce v Jave, jelikoz Java je objektove orientovany jazyk,
+ *  vice informaci se postupne dozvite v UOMO a Programovani 1
  * Nazvy trid:
  * - zacinaji velkym pismenem, kazde dalsi slovo zacina take velkym pismenem
  * - nazev by mel odpovidat tomu, k cemu dana trida slouzi
@@ -28,9 +28,9 @@ public class Lesson01 {
     private static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
-        //Pro spuštění příkladu odkomentujte řádek
+        //Pro spusteni prikladu odkomentujte radek
 
-        //example01(); // volání metody ("funkce") example01 - spustí se tedy kod napsaný níže
+        //example01(); // volani metody ("funkce") example01 - spusti se tedy kod napsany nize
         //example02();
         //example3a();
         //example3b();
@@ -44,15 +44,15 @@ public class Lesson01 {
     }
 
 
-    // Příklad 1 - načtení proměnné
+    // Priklad 1 - nacteni promenne
     private static void example01() {
         print("Running example 01");
-        int a;                          // deklarace proměnné a
+        int a;                          // deklarace promenne a
         print("Type a number");
-        a = input.nextInt();            // načtení proměnné od uživatele
+        a = input.nextInt();            // nacteni promenne od uzivatele
         print("Your number is: " + a);
     }
-    // Příklad 2 - načtení proměnných a jejich součet
+    // Priklad 2 - nacteni promennych a jejich soucet
     private static void example02() {
         print("Running example 02");
         int a;
@@ -65,7 +65,7 @@ public class Lesson01 {
         c = a + b;
         print("The result is: " + c);
     }
-    // Příklad 3a - dělení
+    // Priklad 3a - deleni
     private static void example3a() {
         print("Running example 03a");
         int a, b;
@@ -74,7 +74,7 @@ public class Lesson01 {
         double result = a / b;
         print("The result is: " + result);
     }
-    // Příklad 3b - modulo
+    // Priklad 3b - modulo
     private static void example3b() {
         print("Running example 03b");
         int a, b;
@@ -83,7 +83,7 @@ public class Lesson01 {
         double result = a % b;
         print("The result is: " + result);
     }
-    // Příklad 4
+    // Priklad 4
     private static void example04() {
         print("Running example 04");
         int a = 3;
@@ -94,7 +94,7 @@ public class Lesson01 {
         c = a + b; // c = 5 + 8
         print("The result is: " + c);
     }
-    // Příklad 5
+    // Priklad 5
     private static void example05() {
         print("Running example 05");
         int a = 8;
@@ -105,7 +105,7 @@ public class Lesson01 {
         c = (b + a) * 2;
         print("The result is: " + c);
     }
-    // Příklad 6a - prohození proměnných
+    // Priklad 6a - prohozeni promennych
     private static void example06a() {
         print("Running example 06");
         int a = 1;
@@ -116,7 +116,7 @@ public class Lesson01 {
         b = pom;
         print("a: " + a + " | b:" + b);
     }
-    // Příklad 6b - prohození proměnných bez pomocné
+    // Priklad 6b - prohozeni promennych bez pomocne
     private static void example06b() {
         print("Running example 06b");
         int a = 1;
@@ -126,7 +126,7 @@ public class Lesson01 {
         a = a - b;
         print("a: " + a + " | b:" + b);
     }
-    // Příklad 7 - výpočet rovnice
+    // Priklad 7 - vypocet rovnice
     private static void example07() {
         print("Running example 07");
         int r = 3;
@@ -134,7 +134,7 @@ public class Lesson01 {
         double result = 3.14 * r * r * v;
         print("The result is: " + result);
     }
-    // Příklad 8 - ukázka podmínky if
+    // Priklad 8 - ukazka podminky if
     private static void example08(){
         print("Running example 09");
         print("Type your age");
@@ -147,7 +147,7 @@ public class Lesson01 {
             print("You are not adult");
         }
     }
-    // Příklad 9 - Ukázka podmínky if, kalkulačka
+    // Priklad 9 - Ukazka podminky if, kalkulacka
     private static void example09() {
         print("Running example 09");
         print("Type the first number");
@@ -156,27 +156,27 @@ public class Lesson01 {
         int b = input.nextInt();
 
         print("Type the operator: + - * /");
-        input.nextLine();                   // je potřeba zavolat před načítáním textu od uživatele, v případě že se předtím načítala čísla
+        input.nextLine();                   // je potreba zavolat pred nacitanim textu od uzivatele, v pripade ze se predtim nacitala cisla
         String operator = input.nextLine();
 
         double result = 0;
-        if (operator.equals("+")) {         // v Javě je nutné pužít tento zápis místo klasického operator == "+"
+        if (operator.equals("+")) {         // v Jave je nutne puzit tento zapis misto klasickeho operator == "+"
             result = a + b;
         } else if (operator.equals("-")) {
             result = a - b;
         } else if (operator.equals("*")) {
-            result = a * (double) b;        // druhé číslo přetypujeme na double, aby byl výsledek double
+            result = a * (double) b;        // druhe cislo pretypujeme na double, aby byl vysledek double
         } else if (operator.equals("/")) {
-            result = a / (double) b;        // jmenovatele přetypujeme na double, aby byl výsledek double
+            result = a / (double) b;        // jmenovatele pretypujeme na double, aby byl vysledek double
         } else {
             print("Unknown operator");
-            return;                         // ukončení, výpis výsledku se neprovede
+            return;                         // ukonceni, vypis vysledku se neprovede
         }
         print("The result is: " + result);
     }
 
 
-    //Metody pro zkrácení výpisu, aby nebylo potřeba psát System.out.println - stačí zkráceně print
+    //Metody pro zkraceni vypisu, aby nebylo potreba psat System.out.println - staci zkracene print
     private static void print(String text) {
         System.out.println(text);
     }
